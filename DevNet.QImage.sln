@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNet.QImage", "DevNet.QImage\DevNet.QImage.csproj", "{1056A678-8CAD-41CF-8511-DD5F6EF0C1DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample CSharp Application", "Sample CSharp Application\Sample CSharp Application.csproj", "{A9489784-5828-4FA2-BB50-F230823E22E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1056A678-8CAD-41CF-8511-DD5F6EF0C1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1056A678-8CAD-41CF-8511-DD5F6EF0C1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1056A678-8CAD-41CF-8511-DD5F6EF0C1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1056A678-8CAD-41CF-8511-DD5F6EF0C1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9489784-5828-4FA2-BB50-F230823E22E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9489784-5828-4FA2-BB50-F230823E22E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9489784-5828-4FA2-BB50-F230823E22E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9489784-5828-4FA2-BB50-F230823E22E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {854512CB-465E-4CFB-AE34-9A2A34E5AE6A}
+	EndGlobalSection
+EndGlobal
