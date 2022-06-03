@@ -29,7 +29,7 @@ namespace Sample_CSharp_Application
             {
                 if (dataGridView1.CurrentCell != null && dataGridView1.CurrentCell.Value != null)
                 {
-                    if (MessageBox.Show("Do you want to save this image?", "Prompt", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                    /*if (MessageBox.Show("Do you want to save this image?", "Prompt", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                     {
                         try {
                             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
@@ -52,7 +52,10 @@ namespace Sample_CSharp_Application
                         {
                             MessageBox.Show("Failed","Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
-                    }
+                    }*/
+
+                    Image image = (Image)dataGridView1.CurrentCell.Value;
+                    this.pictureBox1.Image = image;
                 }
             }
         }
